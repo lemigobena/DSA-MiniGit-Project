@@ -46,15 +46,11 @@ Merging & Diff
 
 -----------------------------------------------------------------
  Features
-Git-like CLI: init, add, commit, log, branch, checkout, merge, diff
-
-Stores file snapshots as content-addressed blobs
-
-Commit graph as a Directed Acyclic Graph (DAG)
-
-Merge support with conflict detection and markers
-
-Lightweight diff viewer
+-> Git-like CLI: init, add, commit, log, branch, checkout, merge, diff
+-> Stores file snapshots as content-addressed blobs
+-> Commit graph as a Directed Acyclic Graph (DAG)
+-> Merge support with conflict detection and markers
+-> Lightweight diff viewer
 ------------------------------
 
 Build Instructions
@@ -73,32 +69,25 @@ To run commands (example):
 
 ----------------------------------------------
  Limitations
-Only supports local repositories (no remote push/pull)
-
-Merge conflict resolution must be done manually
-
-No file rename/move detection
-
-Whole file tracking only (not line-by-line)
+> Only supports local repositories (no remote push/pull)
+> Merge conflict resolution must be done manually
+> No file rename/move detection
+> Whole file tracking only (not line-by-line)
 
 -----------------------------------------
 Future Improvements
-Add GUI or text-based UI
+-Add GUI or text-based UI
+-SHA-1 integration
+-Remote push/pull simulation
+-Better diff visualizer
+-Support file renames and move tracking
+-Commit reversion/reset features
 
-SHA-1 integration
-
-Remote push/pull simulation
-
-Better diff visualizer
-
-Support file renames and move tracking
-
-Commit reversion/reset features
- Author
-Misganaw Habtamu,
-Lemi Gobenna, 
-Fita Alemayehu,
-Bekalu Addisu, 
-Olit Oltgira```
+Authors
+1. Misganaw Habtamu,
+2. Lemi Gobena, 
+3. Fita Alemayehu,
+4. Bekalu Addisu and 
+5. Olit Oljira
 
 
