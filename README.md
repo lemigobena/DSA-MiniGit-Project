@@ -3,7 +3,7 @@
 MiniGit is a simplified, local-only version control system that mimics basic Git operations like `init`, `add`, `commit`, `log`, `branch`, `checkout`, and `merge`. It is written in C++ for educational purposes.
 
 ## Project Structure
-.
+
 ├── MiniGit.cpp / .h
 ├── Commit.cpp / .h
 ├── FileUtils.cpp / .h
